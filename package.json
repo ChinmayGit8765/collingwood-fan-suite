@@ -1,0 +1,9 @@
+{
+  "name": "collingwood-fan-suite",
+  "private": true,
+  "description": "Side by Side — a self-updating super-fan suite for Collingwood (or any AFL club). Cron-powered, zero-backend.",
+  "scripts": {
+    "dev": "npx serve -l 3000 .",
+    "refresh": "python scripts/update.py"
+  }
+}

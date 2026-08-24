@@ -1,0 +1,265 @@
+{
+ "generated_at": "2026-08-24T11:32:29+00:00",
+ "season": 2026,
+ "club": "Collingwood",
+ "nextGame": {
+  "round": "Wildcard Finals",
+  "date": "2026-08-28T19:40:00+10:00",
+  "venue": "M.C.G.",
+  "home": "Western Bulldogs",
+  "away": "Collingwood",
+  "homeScore": 0,
+  "awayScore": 0,
+  "complete": 0,
+  "final": true
+ },
+ "lastGames": [
+  {
+   "round": "Round 20",
+   "date": "2026-07-23T19:30:00+10:00",
+   "venue": "Adelaide Oval",
+   "home": "Adelaide",
+   "away": "Collingwood",
+   "homeScore": 74,
+   "awayScore": 108,
+   "complete": 100,
+   "final": false
+  },
+  {
+   "round": "Round 21",
+   "date": "2026-07-30T19:30:00+10:00",
+   "venue": "M.C.G.",
+   "home": "Collingwood",
+   "away": "Geelong",
+   "homeScore": 72,
+   "awayScore": 97,
+   "complete": 100,
+   "final": false
+  },
+  {
+   "round": "Round 22",
+   "date": "2026-08-09T16:10:00+10:00",
+   "venue": "Perth Stadium",
+   "home": "West Coast",
+   "away": "Collingwood",
+   "homeScore": 98,
+   "awayScore": 117,
+   "complete": 100,
+   "final": false
+  },
+  {
+   "round": "Round 23",
+   "date": "2026-08-15T19:40:00+10:00",
+   "venue": "M.C.G.",
+   "home": "Hawthorn",
+   "away": "Collingwood",
+   "homeScore": 92,
+   "awayScore": 92,
+   "complete": 100,
+   "final": false
+  },
+  {
+   "round": "Round 24",
+   "date": "2026-08-21T19:40:00+10:00",
+   "venue": "M.C.G.",
+   "home": "Collingwood",
+   "away": "Brisbane Lions",
+   "homeScore": 96,
+   "awayScore": 159,
+   "complete": 100,
+   "final": false
+  }
+ ],
+ "ladder": [
+  {
+   "rank": 1,
+   "name": "Fremantle",
+   "played": 23,
+   "wins": 19,
+   "losses": 4,
+   "draws": 0,
+   "percentage": 137.2,
+   "pts": 76
+  },
+  {
+   "rank": 2,
+   "name": "Sydney",
+   "played": 23,
+   "wins": 18,
+   "losses": 5,
+   "draws": 0,
+   "percentage": 136.1,
+   "pts": 72
+  },
+  {
+   "rank": 3,
+   "name": "Brisbane Lions",
+   "played": 23,
+   "wins": 16,
+   "losses": 7,
+   "draws": 0,
+   "percentage": 121.7,
+   "pts": 64
+  },
+  {
+   "rank": 4,
+   "name": "Hawthorn",
+   "played": 23,
+   "wins": 15,
+   "losses": 6,
+   "draws": 2,
+   "percentage": 120.1,
+   "pts": 64
+  },
+  {
+   "rank": 5,
+   "name": "Geelong",
+   "played": 23,
+   "wins": 15,
+   "losses": 8,
+   "draws": 0,
+   "percentage": 122.3,
+   "pts": 60
+  },
+  {
+   "rank": 6,
+   "name": "Adelaide",
+   "played": 23,
+   "wins": 15,
+   "losses": 8,
+   "draws": 0,
+   "percentage": 117.3,
+   "pts": 60
+  },
+  {
+   "rank": 7,
+   "name": "Melbourne",
+   "played": 23,
+   "wins": 15,
+   "losses": 8,
+   "draws": 0,
+   "percentage": 109.6,
+   "pts": 60
+  },
+  {
+   "rank": 8,
+   "name": "Western Bulldogs",
+   "played": 23,
+   "wins": 13,
+   "losses": 9,
+   "draws": 1,
+   "percentage": 95.4,
+   "pts": 54
+  },
+  {
+   "rank": 9,
+   "name": "Collingwood",
+   "played": 23,
+   "wins": 12,
+   "losses": 9,
+   "draws": 2,
+   "percentage": 102.4,
+   "pts": 52
+  },
+  {
+   "rank": 10,
+   "name": "Carlton",
+   "played": 23,
+   "wins": 12,
+   "losses": 10,
+   "draws": 1,
+   "percentage": 101.5,
+   "pts": 50
+  },
+  {
+   "rank": 11,
+   "name": "St Kilda",
+   "played": 23,
+   "wins": 10,
+   "losses": 13,
+   "draws": 0,
+   "percentage": 102.8,
+   "pts": 40
+  },
+  {
+   "rank": 12,
+   "name": "Greater Western Sydney",
+   "played": 23,
+   "wins": 10,
+   "losses": 13,
+   "draws": 0,
+   "percentage": 98.9,
+   "pts": 40
+  },
+  {
+   "rank": 13,
+   "name": "Gold Coast",
+   "played": 23,
+   "wins": 9,
+   "losses": 14,
+   "draws": 0,
+   "percentage": 94.5,
+   "pts": 36
+  },
+  {
+   "rank": 14,
+   "name": "North Melbourne",
+   "played": 23,
+   "wins": 9,
+   "losses": 14,
+   "draws": 0,
+   "percentage": 88.8,
+   "pts": 36
+  },
+  {
+   "rank": 15,
+   "name": "Port Adelaide",
+   "played": 23,
+   "wins": 7,
+   "losses": 16,
+   "draws": 0,
+   "percentage": 88.0,
+   "pts": 28
+  },
+  {
+   "rank": 16,
+   "name": "West Coast",
+   "played": 23,
+   "wins": 4,
+   "losses": 19,
+   "draws": 0,
+   "percentage": 69.2,
+   "pts": 16
+  },
+  {
+   "rank": 17,
+   "name": "Richmond",
+   "played": 23,
+   "wins": 3,
+   "losses": 20,
+   "draws": 0,
+   "percentage": 62.5,
+   "pts": 12
+  },
+  {
+   "rank": 18,
+   "name": "Essendon",
+   "played": 23,
+   "wins": 2,
+   "losses": 21,
+   "draws": 0,
+   "percentage": 64.6,
+   "pts": 8
+  }
+ ],
+ "clubRow": {
+  "rank": 9,
+  "name": "Collingwood",
+  "played": 23,
+  "wins": 12,
+  "losses": 9,
+  "draws": 2,
+  "percentage": 102.4,
+  "pts": 52
+ }
+}

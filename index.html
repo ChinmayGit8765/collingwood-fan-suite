@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Side by Side — a Collingwood super-fan suite</title>
+  <meta name="description" content="A self-updating home page for Collingwood tragics: next-game countdown, form guide, live ladder, and a daily news feed — rebuilt every morning by a GitHub Actions cron. Reskinnable for any AFL club." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏉</text></svg>" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="wordmark" href="index.html">Side by Side <span class="badge" id="club-badge">⚫⚪</span></a>
+    <nav class="site-nav mono">
+      <a href="https://github.com/ChinmayGit8765/collingwood-fan-suite" target="_blank" rel="noopener">SOURCE ↗</a>
+      <a href="https://chinmaygit8765.github.io/exaryn-studio/" target="_blank" rel="noopener">EXARYN ✳</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <p class="kicker mono" id="hero-kicker">A SUPER-FAN SUITE</p>
+      <h1 class="hero-title" id="hero-title">Good old <em>Collingwood</em> forever.</h1>
+      <ul class="hero-meta mono">
+        <li><span>SEASON</span><span id="meta-season">—</span></li>
+        <li><span>LADDER</span><span id="meta-rank" class="strong">—</span></li>
+        <li><span>RECORD</span><span id="meta-record">—</span></li>
+        <li><span>PERCENTAGE</span><span id="meta-pct">—</span></li>
+        <li><span>DATA REFRESHED</span><span id="meta-updated">—</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ NEXT GAME ============ -->
+    <section class="next-game" id="next-game" hidden>
+      <p class="kicker mono">NEXT GAME</p>
+      <div class="fixture">
+        <div class="teams" id="fixture-teams">— v —</div>
+        <div class="fixture-meta mono" id="fixture-meta">—</div>
+      </div>
+      <div class="countdown mono" id="countdown" aria-label="Countdown to the next game">
+        <span><b id="cd-d">--</b>DAYS</span>
+        <span><b id="cd-h">--</b>HRS</span>
+        <span><b id="cd-m">--</b>MIN</span>
+        <span><b id="cd-s">--</b>SEC</span>
+      </div>
+    </section>
+
+    <!-- ============ FORM ============ -->
+    <section class="form-guide">
+      <div class="section-head">
+        <h2 class="section-title">Form <em>guide</em></h2>
+        <span class="section-note mono">LAST FIVE GAMES</span>
+      </div>
+      <ol class="form-list" id="form-list">
+        <li class="empty mono">LOADING…</li>
+      </ol>
+    </section>
+
+    <!-- ============ LADDER ============ -->
+    <section class="ladder">
+      <div class="section-head">
+        <h2 class="section-title">The <em>ladder</em></h2>
+        <span class="section-note mono" id="ladder-note">TOP 8 PLAY FINALS</span>
+      </div>
+      <div class="table-scroll">
+        <table id="ladder-table">
+          <thead class="mono">
+            <tr><th>#</th><th>CLUB</th><th>P</th><th>W</th><th>L</th><th>D</th><th>%</th><th>PTS</th></tr>
+          </thead>
+          <tbody id="ladder-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ NEWS ============ -->
+    <section class="squawk">
+      <div class="section-head">
+        <h2 class="section-title">The daily <em>squawk</em></h2>
+        <span class="section-note mono" id="squawk-updated">UPDATED —</span>
+      </div>
+      <p class="blurb">
+        Every headline about the club, swept up each morning by a robot on a
+        cron job. No login, no app, no ads — just the news.
+      </p>
+      <ol class="feed-list" id="feed-list">
+        <li class="empty mono">LOADING…</li>
+      </ol>
+    </section>
+
+    <footer class="site-footer mono">
+      <span>REBUILT EVERY MORNING BY A <a href="https://github.com/ChinmayGit8765/collingwood-fan-suite/blob/main/.github/workflows/daily.yml" target="_blank" rel="noopener">GITHUB ACTIONS CRON</a></span>
+      <span>FIXTURES &amp; LADDER FROM THE <a href="https://api.squiggle.com.au" target="_blank" rel="noopener">SQUIGGLE API</a> · HEADLINES VIA GOOGLE NEWS</span>
+      <span>FAN-MADE — NOT AFFILIATED WITH THE AFL OR ANY CLUB · <a href="https://github.com/ChinmayGit8765/collingwood-fan-suite#reskin-it-for-your-club" target="_blank" rel="noopener">RESKIN IT FOR YOUR CLUB ↗</a></span>
+      <span>BUILT BY <a href="https://chinmaygit8765.github.io/exaryn-studio/" target="_blank" rel="noopener">EXARYN ✳</a></span>
+    </footer>
+
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
