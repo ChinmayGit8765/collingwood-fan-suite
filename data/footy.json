@@ -1,30 +1,9 @@
 {
- "generated_at": "2026-08-27T23:53:09+00:00",
+ "generated_at": "2026-08-28T22:04:15+00:00",
  "season": 2026,
  "club": "Collingwood",
- "nextGame": {
-  "round": "Wildcard Finals",
-  "date": "2026-08-28T19:40:00+10:00",
-  "venue": "M.C.G.",
-  "home": "Western Bulldogs",
-  "away": "Collingwood",
-  "homeScore": 0,
-  "awayScore": 0,
-  "complete": 0,
-  "final": true
- },
+ "nextGame": null,
  "lastGames": [
-  {
-   "round": "Round 20",
-   "date": "2026-07-23T19:30:00+10:00",
-   "venue": "Adelaide Oval",
-   "home": "Adelaide",
-   "away": "Collingwood",
-   "homeScore": 74,
-   "awayScore": 108,
-   "complete": 100,
-   "final": false
-  },
   {
    "round": "Round 21",
    "date": "2026-07-30T19:30:00+10:00",
@@ -68,6 +47,17 @@
    "awayScore": 159,
    "complete": 100,
    "final": false
+  },
+  {
+   "round": "Wildcard Finals",
+   "date": "2026-08-28T19:40:00+10:00",
+   "venue": "M.C.G.",
+   "home": "Western Bulldogs",
+   "away": "Collingwood",
+   "homeScore": 96,
+   "awayScore": 93,
+   "complete": 100,
+   "final": true
   }
  ],
  "ladder": [
